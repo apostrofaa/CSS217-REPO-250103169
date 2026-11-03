@@ -16,7 +16,6 @@ class ImmediateStrategy implements DispatchStrategy {
         return "IMMEDIATE_DISPATCH";
     }
 }
-
 class BusinessHoursStrategy implements DispatchStrategy {
     @Override
     public boolean shouldDispatch(int severityLevel, int currentHour) {
